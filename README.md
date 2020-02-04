@@ -10,9 +10,6 @@ README is written in Markdown.
     - in terminal, run `ruby -v`. This should return your current Ruby version.
     - If you do not have the correct Ruby version, I recommend use `RVM` to install Ruby 2.5.0
     ```
-        install GPG keys:    
-        $ gpg2 --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB
-        
         install RVM:
         $ \curl -sSL https://get.rvm.io | bash -s stable
    
