@@ -38,10 +38,10 @@ README is written in Markdown.
 1. Use Horizontal Scaling to handle increasing loads and to address single points of failure:
    we could add a Load Balancer such as Amazon's ELB, since ELB is highly available. Alternatively, we could configure our own load balancer, 
    by setting up multiple servers in active-active or active-passive in multiple availability zones will improve availability.
+   
 2. Limit third party API call to reduce latency and avoid hitting rate limit: 
-   Everyday, we could set up a cron job to make one API call getting all open food trucks on that day.To keep returned data in sync with Socrata dataset, 
-   we could either setup a webhook(if any) or run cron job daily/weekly depending on how frequently dataset gets updated. Considering the current dataset has only 24 columns 
-   and 3218 rows (< 5MB) in total, it would be safe to save returned data in the memory. We can then perform quick filter to get available food trucks per time upon request.
+   we could set up a cron job to make one API call getting all open food trucks on that day. To keep returned data in sync with Socrata dataset, we could either setup a webhook(if any) or run a cron job daily/weekly depending on how frequently dataset gets updated. Considering the current dataset has only 24 columns 
+   and 3218 rows (< 5MB) in total, it would be safe to save returned data in the memory. We can then perform quick a filter to get available food trucks per time upon request.
  
 ### Class Diagram
 ![Image description](./assets/images/FoodTruck.png)
