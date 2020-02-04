@@ -44,6 +44,6 @@ README is written in Markdown.
    and 3218 rows (< 5MB) in total, it would be safe to save returned data in the memory. We can then perform quick a filter to get available food trucks per time upon request.
  
 ### Class Diagram
-![Image description](./assets/images/FoodTruck.png)
+![](./FoodTruck.png)
 
 
