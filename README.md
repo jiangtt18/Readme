@@ -9,6 +9,7 @@ README is written in Markdown.
 * make sure you have Ruby version of 2.5.0
     - in terminal, run `ruby -v`. This should return your current Ruby version.
     - If you do not have the correct Ruby version, I recommend use `RVM` to install Ruby 2.5.0
+    - Example below for MacOS:
     ```
         install RVM:
         $ \curl -sSL https://get.rvm.io | bash -s stable
